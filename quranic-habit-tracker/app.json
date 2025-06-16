@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "quranic-habit-tracker",
+    "slug": "quranic-habit-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "quranichabittracker",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "FIREBASE_API_KEY": "your-firebase-api-key",
+      "FIREBASE_AUTH_DOMAIN": "your-firebase-auth-domain",
+      "FIREBASE_PROJECT_ID": "your-firebase-project-id",
+      "FIREBASE_STORAGE_BUCKET": "your-firebase-storage-bucket",
+      "FIREBASE_MESSAGING_SENDER_ID": "your-firebase-messaging-sender-id",
+      "FIREBASE_APP_ID": "your-firebase-app-id",
+      "CLOUDINARY_CLOUD_NAME": "your-cloudinary-cloud-name",
+      "CLOUDINARY_UPLOAD_PRESET": "your-upload-preset",
+      "GOOGLE_EXPO_CLIENT_ID": "your-expo-client-id",
+      "GOOGLE_IOS_CLIENT_ID": "your-ios-client-id",
+      "GOOGLE_ANDROID_CLIENT_ID": "your-android-client-id",
+      "GOOGLE_WEB_CLIENT_ID": "your-web-client-id"
+    }
+  }
+}

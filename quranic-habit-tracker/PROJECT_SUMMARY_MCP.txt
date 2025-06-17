@@ -1,0 +1,34 @@
+Quranic Habit Tracker adalah aplikasi React Native (Expo) untuk membangun kebiasaan Qurani secara konsisten dan engaging.
+
+Fitur utama:
+- Authentication system (email, Google, anonymous, profile setup)
+- Dashboard interaktif (progress ring, streak, quick actions, inspiration, timeline, real-time Firestore)
+- Manual Input System (multi-step form, surah/ayat picker, rating, image upload, offline support)
+- Tracking system (streaks, progress, analytics, offline sync, background tasks)
+- Analytics dashboard (interactive charts, heatmap, stats, export/share)
+- Smart Reminder System (prayer-based, custom, adaptive, local notifications, background)
+- Leaderboard System (multi-tier, categories, social, real-time, badges, challenges)
+- Achievement System (badge collection, unlock animation, rarity, sharing, progress)
+- Community Features (inspiration hub, guilds, story sharing, comments, reactions, moderation)
+
+Stack: React Native (Expo), Firebase (Firestore/Auth), Cloudinary, Redux Toolkit, RTK Query, Victory Native, Lottie, react-native-push-notification, AsyncStorage, MCP Supermemory integration.
+
+Clean architecture, modular feature-based folder, offline support, real-time sync, Islamic-themed UI/UX, dan gamification untuk motivasi pengguna.
+
+## TODO: Agar Quranic Habit Tracker Berfungsi Maksimal
+
+1. Integrasi dan pengujian autentikasi (email, Google, anonymous, profile setup)
+2. Implementasi dan pengujian real-time Firestore listeners di semua fitur utama
+3. Integrasi Cloudinary untuk upload gambar (profile, story, badge, dsb)
+4. Pengujian offline support & cache (AsyncStorage) di semua fitur
+5. Implementasi dan pengujian background sync & notification scheduling
+6. Integrasi dan pengujian Smart Reminder System (API waktu shalat, custom, adaptive)
+7. Pengujian dan optimasi Leaderboard System (pagination, real-time, social)
+8. Achievement System: deteksi unlock, animasi, sharing, dan progress tracking
+9. Community Features: feed, story sharing, comment, reaction, moderation, guild
+10. Pengujian dan optimasi UI/UX (responsive, dark mode, animasi, Islamic theme)
+11. Penambahan dan pengujian Cloud Functions (streak, achievement, aggregation)
+12. Penulisan test (unit/integration) untuk fitur-fitur kritikal
+13. Dokumentasi penggunaan dan kontribusi
+
+Pastikan semua fitur di atas sudah terintegrasi, diuji, dan berjalan baik di berbagai device sebelum rilis ke production.
